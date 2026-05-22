@@ -1,0 +1,28 @@
+bitig {
+
+    tamga sayi asker = 80;
+    tamga sayi dusman = 60;
+    tamga yazi komutan = "Mete Han";
+    tamga kut hazir = var;
+
+    sesver("Savas plani basladi");
+    sesver(komutan);
+
+    yokla (hazir ve asker > dusman) {
+
+        sesver("Hucum emri verildi");
+
+    } yada {
+
+        sesver("Savunma duzeni alindi");
+    }
+
+    yuru (dusman > 50) {
+
+        sesver("Dusman gucu azaltiliyor");
+
+        dusman = dusman - 5;
+    }
+
+    sesver("Savas tamamlandi");
+}
