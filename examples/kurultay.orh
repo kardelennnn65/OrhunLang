@@ -1,0 +1,19 @@
+bitig {
+
+    tamga sayi rutbe = 2;
+
+    kurultay (rutbe) {
+
+        boy 1 =>
+            sesver("Alp");
+
+        boy 2 =>
+            sesver("Tarkan");
+
+        boy 3 =>
+            sesver("Kagan");
+
+        son =>
+            sesver("Bilinmeyen rutbe");
+    }
+}

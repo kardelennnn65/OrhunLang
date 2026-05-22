@@ -1,0 +1,15 @@
+bitig {
+
+    tamga sayi ok = 5;
+
+    sesver("Ok hazirlandi");
+
+    yuru (ok > 0) {
+
+        sesver(ok);
+
+        ok = ok - 1;
+    }
+
+    sesver("Cephane tükendi");
+}
