@@ -1,0 +1,17 @@
+bitig {
+
+    tamga sayi asker = 100;
+    tamga yazi lider = "Bilge Kagan";
+
+    sesver("Ordu Hazir");
+    sesver(lider);
+
+    yokla (asker > 50) {
+
+        sesver("Ordu guclu");
+
+    } yada {
+
+        sesver("Takviye gerekli");
+    }
+}
